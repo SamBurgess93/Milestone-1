@@ -1,24 +1,36 @@
-/*-------------------------Colours 
+/*-------------------------Colours */
 
 .navbar-light .navbar-nav .nav-link {
     color:white;
 }
 
-/*-------------------------Heading  */
+/*-------------------------Header */
 
-header{
-    margin:0;
-}
 
 .navbar{
     align-items: flex-start;
 }
 
-.bg-dark {
+.navbar-light {
     background:transparent !important;
     transition:0.75s ease;
 }
 
-.bg-dark.scrolled{
-    background: #000 !important;
+.navbar-light.scrolled{
+    background:#26ABE2 !important;
+}
+
+/*-------------------------Hero image */
+.bgimage {
+  width:100%;
+  height:800px;
+  background: url("/assets/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
 }
