@@ -1,22 +1,10 @@
-/*-------------------------Colours */
+/*-------------------------Colours 
 
-.ui-menu-color-home{
-    background-color: #43df43;
+.navbar-light .navbar-nav .nav-link {
+    color:white;
 }
 
-.ui-menu-color-about{
-    background-color: #ca1515;
-}
-
-.ui-menu-color-offer{
-    background-color: #1250d6;
-}
-
-.ui-menu-color-contact{
-    background-color: #d4c821;
-}
-
-/*-------------------------Heading */
+/*-------------------------Heading  */
 
 header{
     margin:0;
@@ -26,6 +14,11 @@ header{
     align-items: flex-start;
 }
 
-.navbar-nav li a{
-    color:white;
+.bg-dark {
+    background:transparent !important;
+    transition:0.75s ease;
+}
+
+.bg-dark.scrolled{
+    background: #000 !important;
 }
