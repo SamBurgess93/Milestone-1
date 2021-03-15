@@ -1,36 +1,136 @@
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
 /*-------------------------Colours */
 
-.navbar-light .navbar-nav .nav-link {
-    color:white;
+/*--Use of important here to override the set colours in bootstrap--*/
+.nav-link {
+    color: #ffffff !important;
 }
+
+.nav-link:hover {
+    color: #1a6db1 !important;
+}
+/*------------------------ */
+
 
 /*-------------------------Header */
 
-
-.navbar{
-    align-items: flex-start;
+#logo {
+     height:85px; 
+     width:100px; 
 }
 
+/*-------------------------Navbar */
 .navbar-light {
     background:transparent !important;
     transition:0.75s ease;
 }
 
 .navbar-light.scrolled{
-    background:#26ABE2 !important;
+    background:rgba(16, 17, 17, 0.3) !important;
+} 
+
+.navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    align-items: flex-start;
+} 
+/*-------------------------*/
+
+
+/*-------------------------Hero Image & Text*/
+#hero-image {
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.2) 0%, rgba(73, 65, 59, 0.2) 100%), url(../images/hero3.jpg) no-repeat center 75%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: grayscale(20%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-/*-------------------------Hero image */
-.bgimage {
-  width:100%;
-  height:800px;
-  background: url("/assets/images/hero.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-attachment: fixed;
+#hero-text {
+    margin: 0px 40px;
+    padding-left: 15px;
+    color: #ffffff;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .2);
+    text-align: center;
+    font-weight: 300;
+} 
+
+#hero-sub {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    text-align: center;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
+    font-weight: 300;
 }
-.bgimage h5 {
-  color:white;
-  text-shadow:2px 2px #333;
+
+/*-------------------------*/
+
+
+
+/*-----Media Queries------*/
+@media screen and (min-width: 320px) {
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    #hero-text{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 360px) {
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .white-text {
+        text-align: left;
+    }
+
+    .navbar-brand {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    /* Landing page main text for medium screens*/
+
+    #hero-text {
+        font-size: 4.2rem;
+    }
+    .navbar-nav{
+        font-size: 1.5rem;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    #logo {
+        height:150px; 
+        width:200px; 
+    }
 }
