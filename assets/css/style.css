@@ -15,6 +15,26 @@ body{
 }
 /*------------------------ */
 
+/*-------------------------Text */
+.white-text {
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/*------------------------ */
+
+/*-------------------------Dividers */
+
+.blue-line {
+    border-width: .2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 1px solid #26abe2;
+}
+
+/*------------------------ */
 
 /*-------------------------Header */
 
@@ -82,8 +102,31 @@ body{
 }
 
 /*-------------------------*/
+/*-------------------------About Me */
 
+.about-me {
+    padding: 200px 40px;
+    background-color: #212529;
+}
 
+.about-me-sub {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.aboutpic{
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.benpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
 /*-----Media Queries------*/
 @media screen and (min-width: 320px) {
@@ -94,6 +137,7 @@ body{
 
     #hero-text{
         font-size: 2.5rem;
+        margin: 200px 0 0 0;
     }
 }
 
