@@ -44,12 +44,12 @@ body{
 }
 
 /*-------------------------Navbar */
-.navbar-light {
+.navbar-dark {
     background:transparent !important;
     transition:0.75s ease;
 }
 
-.navbar-light.scrolled{
+.navbar-dark.scrolled{
     background:rgba(16, 17, 17, 0.3) !important;
 } 
 
@@ -75,7 +75,7 @@ body{
     bottom: 0;
     left: 0;
     filter: grayscale(20%);
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +109,7 @@ body{
     background-color: #212529;
 }
 
-.about-me-sub {
+.about-me-head {
     color: #ffffff;
     font-weight: 300;
 }
@@ -129,6 +129,8 @@ body{
 }
 
 /*-----Media Queries------*/
+
+/*-----IPhone5------*/
 @media screen and (min-width: 320px) {
 
     .navbar-brand {
@@ -139,13 +141,28 @@ body{
         font-size: 2.5rem;
         margin: 200px 0 0 0;
     }
-}
 
+    .about-me {
+        padding: 30px 15px;
+    }
+
+    .aboutpic{
+        padding-bottom: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .qual{
+        padding:0;
+    }
+}    
+
+/*-----Larger Mobiles------*/
 @media screen and (min-width: 360px) {
 
 
 }
-
+/*-----Tablets------*/
 @media screen and (min-width: 768px) {
 
     .white-text {
@@ -155,17 +172,22 @@ body{
     .navbar-brand {
         font-size: 1.15rem;
     }
+
+    .aboutpic{
+        padding-top: 30px;
+    }
 }
 
+/*-----Desktop------*/
 @media screen and (min-width: 992px) {
 
-    /* Landing page main text for medium screens*/
+    
 
     #hero-text {
         font-size: 4.2rem;
     }
     .navbar-nav{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -177,4 +199,18 @@ body{
         height:150px; 
         width:200px; 
     }
+
+    .benpic{
+        height:600px;
+    }
+
+    .about-me h2{
+        padding-top: 40px;
+    }
+
+    .about-sub{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
 }
