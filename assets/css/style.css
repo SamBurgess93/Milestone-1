@@ -166,7 +166,7 @@ body{
 
 .services {
     background-color: #26abe2;
-     padding: 200px 40px;
+     padding:125px 20px;
 }
 
 #service-head {
@@ -192,7 +192,6 @@ body{
     text-align: center;
     width: 100%;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
-
 }
 
 .service-maintext {
@@ -209,13 +208,37 @@ body{
     position: absolute;
     text-align: center;
     width: 100%;
-    color: #26abe2;
 }
 
+#service-button{
+    padding:20px 0;
+}
 
+/*-----Challenge-----*/
+.jumbotron {
+    /*background-image: url("../images/challenge.jpg");*/
+    background-size: cover;
+}
+.challenge{
+    background: url(../images/challenge.jpg) no-repeat center 75% transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: grayscale(20%);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
-
-
+/*-------------------------*/
 /*-------------------------*/
 
 /*-----Media Queries------*/
@@ -252,6 +275,7 @@ body{
     #service-head {
         font-size: 2.5rem;
     }
+
 
 }    
 
