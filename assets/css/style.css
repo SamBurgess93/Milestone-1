@@ -279,6 +279,98 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/*-------------------------*/
+/*-----Testimonals---fitz composer big props -----*/
+
+.review-title {
+    background-color: #26abe2;
+}
+
+.reviews {
+    background-color: #26abe2;
+}
+
+.review {
+    text-align: center;
+}
+
+/*------------------- REVIEW IMAGES -------------------*/
+
+.review img {
+  grid-area: img;
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
+  justify-self: center;
+  padding: 10px 10px 20px;
+}
+
+.stars {
+  justify-self: center;
+  padding-bottom: 20px;
+}
+
+/*------------------- REVIEW REVEAL -------------------*/
+
+.review-header {
+  border-radius: 15px;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  width: 100%;
+  justify-self: center;
+}
+
+.review-header:active {
+  -webkit-animation: wiggle .1s;
+          animation: wiggle .1s;
+}
+
+/*----------------- REVIEW RADIO BUTTONS ------------------*/
+
+.review-header-radio {
+  display: none;
+}
+
+#review-header-radio1:checked + #review-description1,
+#review-header-radio2:checked + #review-description2,
+#review-header-radio3:checked + #review-description3,
+#review-header-radio4:checked + #review-description4,
+#review-header-radio5:checked + #review-description5,
+#review-header-radio6:checked + #review-description6 {
+  height: auto;
+}
+
+#review-header-radio1:not(:checked) + #review-description1,
+#review-header-radio2:not(:checked) + #review-description2,
+#review-header-radio3:not(:checked) + #review-description3,
+#review-header-radio4:not(:checked) + #review-description4,
+#review-header-radio5:not(:checked) + #review-description5,
+#review-header-radio6:not(:checked) + #review-description6 {
+  height: 0;
+}
+
+/*------------------ REVIEW DESCRIPTION ------------------*/
+
+.review-description {
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  justify-self: center;
+  padding-top: 10px;
+}
+
+.review-description blockquote, .review-description cite {
+  font-style: italic;
+  letter-spacing: 1px;
+  justify-self: start;
+  padding: 10px 10px;
+}
+
+.review-description i {
+  justify-self: center;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
 
 /*-------------------------*/
 
