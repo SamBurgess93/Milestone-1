@@ -288,7 +288,7 @@ body{
 }
 
 .reviews {
-    background-color: #26abe2;
+    background-color: #101011;
 }
 
 .review {
@@ -298,18 +298,16 @@ body{
 /*------------------- REVIEW IMAGES -------------------*/
 
 .review img {
-  grid-area: img;
-  border-radius: 50%;
-  max-width: 150px;
-  height: auto;
-  justify-self: center;
-  padding: 10px 10px 20px;
+    border-radius: 50%;
+    max-width: 150px;
+    padding: 10px 10px 20px;
+    height: 160px;
+    width: 100%;
 }
 
 .stars {
-  justify-self: center;
-  padding-bottom: 10px;
-  color:gold;
+    padding-bottom: 10px;
+    color:gold;
 }
 
 /*------------------- REVIEW REVEAL -------------------*/
@@ -358,6 +356,7 @@ body{
   width: 100%;
   justify-self: center;
   padding-top: 10px;
+  color: #ffffff;
 }
 
 .review-description blockquote, .review-description cite {
@@ -374,6 +373,113 @@ body{
 }
 
 /*-------------------------*/
+
+/*-----Contact------*/
+/*-----Contact us Section-----*/
+
+
+
+.contact-main {
+    padding: 125px 40px;
+    background-color: #26abe2;
+}
+
+.contact-header {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.contact-hello {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 1.875rem;
+    margin-bottom: 50px;
+}
+
+#contactName {
+    margin-bottom: 20px;
+}
+
+#contactEmail {
+    margin-bottom: 20px;
+}
+
+#contactMessage {
+    margin-bottom: 20px;
+    height: 120px;
+}
+
+#contactButton {
+    width: 100px;
+    margin-top: 20px;
+    color: #26abe2;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+#contactButton:hover {
+    color: #fafafa;
+    background-color: #26abe2;
+    border-color: #ffffff;
+}
+
+/*-------------------------*/
+
+/*-----Footer-----*/
+
+footer {
+    background-color: #212529;
+    color: #ffffff;
+    min-height: 120px;
+    margin: 0;
+    text-align: center;
+}
+
+#footer-spacing {
+    padding-top: 50px;
+}
+
+#footer-spacing-social {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#footer-spacing-sub {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social-links li a i {
+    width: 52px;
+    height: 52px;
+    padding: 22px 0;
+    border-radius: 50%;
+    font-size: 1.4375rem;
+    line-height: 7px;
+    text-align: center;
+    color: #26abe2;
+    background: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #ffffff;
+    background: #26abe2;
+}
+
+}
+/*-------------------------*/
+
 
 /*-----Media Queries------*/
 
@@ -456,10 +562,10 @@ body{
     
 
     #hero-text {
-        font-size: 4.2rem;
+        font-size: 3.2rem;
     }
     .navbar-nav{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
