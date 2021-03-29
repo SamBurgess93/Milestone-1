@@ -3,20 +3,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*-------------------------Colours */
 
-/*--Use of important here to override the set colours in bootstrap--*/
-.nav-link {
-    color: #ffffff !important;
-}
-
-.nav-link:hover {
-    color: #1a6db1 !important;
-}
-/*------------------------ */
-
-
-/*-------------------------Text */
+/*-----Text-----*/
 .white-text {
     padding-bottom: 10px;
     color: #ffffff;
@@ -39,7 +27,7 @@ body{
 /*------------------------ */
 
 
-/*-------------------------Dividers */
+/*-----Dividers-----*/
 
 .blue-line {
     border-width: .2rem;
@@ -71,7 +59,7 @@ body{
 /*------------------------ */
 
 
-/*-------------------------Navbar */
+/*-----navbar Section-----*/
 .navbar-dark {
     background:transparent !important;
     transition:0.75s ease;
@@ -87,10 +75,18 @@ body{
     text-align: center;
     align-items: flex-start;
 } 
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #1a6db1 !important;
+}
 /*-------------------------*/
 
 
-/*-------------------------Hero Image & Text*/
+/*-----Hero Image & Text Section-----*/
 #hero-image {
     background: linear-gradient(to bottom, rgba(136, 136, 136, 0.2) 0%, rgba(73, 65, 59, 0.2) 100%), url(../images/hero3.jpg) no-repeat center 75%;
     -webkit-background-size: cover;
@@ -130,7 +126,8 @@ body{
 }
 
 /*-------------------------*/
-/*-------------------------About Me */
+
+/*-----About Me Section-----*/
 
 #about-me {
     background-color:#101011;
@@ -166,7 +163,7 @@ body{
 }
 /*-------------------------*/
 
-/*-------------------------Services */
+/*-----Services Section-----*/
 
 #services {
     background-color: #26abe2;
@@ -226,7 +223,7 @@ body{
 }
 /*-------------------------*/
 
-/*-----Challenge-----*/
+/*-----Challenge Section-----*/
 .chall-section {
     background-color: #26abe2;
 }
@@ -266,7 +263,7 @@ body{
 }
 /*-------------------------*/
 
-/*-----Video-----*/
+/*-----Video Section-----*/
 
 .vid-section{
     background-color: #101011;
@@ -286,7 +283,10 @@ body{
 }
 
 /*-------------------------*/
-/*-----Testimonals---fitz composer big props -----*/
+
+
+
+/*-----Reviews---fitz composer big props -----*/
 
 .review-title {
     background-color: #26abe2;
@@ -301,8 +301,6 @@ body{
     text-align: center;
 }
 
-/*------------------- REVIEW IMAGES -------------------*/
-
 .review img {
     border-radius: 50%;
     max-width: 150px;
@@ -316,8 +314,6 @@ body{
     color:gold;
 }
 
-/*------------------- REVIEW REVEAL -------------------*/
-
 .review-header {
   border-radius: 15px;
   letter-spacing: 1px;
@@ -329,8 +325,6 @@ body{
   -webkit-animation: wiggle .1s;
           animation: wiggle .1s;
 }
-
-/*----------------- REVIEW RADIO BUTTONS ------------------*/
 
 .review-header-radio {
   display: none;
@@ -354,8 +348,6 @@ body{
   height: 0;
 }
 
-/*------------------ REVIEW DESCRIPTION ------------------*/
-
 .review-description {
   height: 0;
   overflow: hidden;
@@ -377,14 +369,11 @@ body{
   font-weight: bolder;
   padding-bottom: 20px;
 }
-
 /*-------------------------*/
 
+
+
 /*-----Contact------*/
-/*-----Contact us Section-----*/
-
-
-
 .contact-main {
     padding: 125px 40px;
     background-color: #26abe2;

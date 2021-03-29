@@ -23,17 +23,8 @@ The website will invite the user to interact with a colour scheme and a user-fri
 A user will want to relate to the owners story.
 A user will want to see what services are on offer.
 A user will want to see more on the social media platforms.
-A user will want to see customer feedback.
+A user will want to see some customer feedback.
 A user will want to see how to get in touch.
-
-
-
-
-
-
-
-
-
 
 
 ### Strategy
