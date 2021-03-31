@@ -45,35 +45,91 @@ the aim is to have people sign up to the free 30 day challenge to sample the ser
 With people visiting the site it is envisaged that the social media pages will in turn get more clicks. 
 
 ### Scope
-For the users to my website I wanted to highlight to people that they can change their lives and become a happier and healthier person by signing up for some personal training.
+For the users to my website I wanted to highlight to them that they can change their lives and become a happier and healthier person by signing up for some personal training.
 
 
 ### Structure
-
+The main structure of the website will be a single page application with a main hero image and text that the user see first whe they visit the site.
+On scrolling down the user will come upon the About Me section which tells the story of the owners own battle with weight loss that will bring a sense of togetherness and relatability 
+to the application. What follows then is the Services section whcih highlights to the user what they can expect from BB fitness and how this 
+differentiates this from others. This will include a call to action button to get in touch to start the process. After the services the user is met with the 30 day fitness challenge
+section which will invite the user to sign up for the free fitness programme. Following this is a embedded motivational video to create a positive emotional response from the user.
+A review section then follows which showcases what existing clients have to say about BB fitness. This is then followed by the contact form and the footer which contains the links to
+the social media channels. 
 
 
 ### Skeleton
 
+New Wireframes:
 
+
+Original Wireframes:
 
 
 ## Features
 
+Landing Page:
+This will be the first thing seen by the user and will give them a feeling of togetherness and warmth.
+
+About Me:
+This will outline the owners own weight loss struggles and highlights the philosophy and qualifications of the owner.
+
+Services:
+Outlines to the user what they can expect to receive from the business.
+
+Challenge:
+Invites the user to sign up for the free 30 day fitness challenge.
+
+Video:
+Embedded YouTube video to initiate a positive emotional response.
+
+Reviews:
+Showcases 3 existing customer reviews.
+
+Contact:
+A contact form for the user to get in touch.
+
+
+
 
 
 ### Existing Features
+Navbar is clear on landing page but darkens as the user scrolls down the page.
 
 
 
 ### Features Left to Implement
-
+Members forum so people can interact and encourage each other.
+Email confirmation for successful sign up to challenge.
+Create a multi page app with a gallery of pictures.
 
 
 ## Technologies Used
-
+HTML
+CSS
+JQuery
+Google Chrome Developer Tools
+Bootsrap v?
 
 
 ## Testing
+At the start of the project I had to take into account the needs of the user and the devies they would be using to view the application.
+
+Using Chrome tools I tested using the following devices;
+
+iPhone 5/SE (320 x 568)
+iPhone 6/7/8 (375 x 667)
+iPhone 6/7/8 Plus (414 x 716)
+iPhone X (375 x 812)
+iPad (768 x 1024)
+iPad Pro(1024 x 1366)
+Laptop with HiDPI Screen (1440 x 900)
+
+I tested with other screens I have;
+Samsung S9 mobile
+23.8" Desktop Screen (1920 x 1080)
+Laptop 14" (1920 x 1080)
+
 
 ### Testing planning.
 
