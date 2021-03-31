@@ -288,6 +288,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+iframe{
+    border: 0px;
+}
+
 /*-------------------------*/
 
 

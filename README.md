@@ -113,6 +113,10 @@ Bootsrap v?
 
 
 ## Testing
+
+
+
+### Testing planning.
 At the start of the project I had to take into account the needs of the user and the devies they would be using to view the application.
 
 Using Chrome tools I tested using the following devices;
@@ -122,7 +126,7 @@ iPhone 6/7/8 (375 x 667)
 iPhone 6/7/8 Plus (414 x 716)
 iPhone X (375 x 812)
 iPad (768 x 1024)
-iPad Pro(1024 x 1366)
+iPad Pro (1024 x 1366)
 Laptop with HiDPI Screen (1440 x 900)
 
 I tested with other screens I have;
@@ -131,16 +135,19 @@ Samsung S9 mobile
 Laptop 14" (1920 x 1080)
 
 
-### Testing planning.
-
-
-
 ### Implementation
+I used Google Chrome dev tools to debug and test my code. I used the 'mobile first' approach so I debugged on the smallest screen first and worked my way up to the largest. 
+I also tested using the handheld devices I owned to make the testing more accurate.
 
+The main method of testing I used was implenting/ changing styles in the Chrome Dev Tools first to see how it looked on various device sizes. If this was satisfactory then I would paste the code over to my HTML/CSS to make the change permanent.
+
+I also used Lighthouse to test the accessability of the site and W3 validator to test my code.
 
 ### Results and outcomes
 
+### Validator
 
+I used the W3C Validator to check my HTML code. The first error I encountered was that in my embedded code for the YouTube video the frameborder attribute is obselete in HTML5. I had to implement this is in my CSS instead.
 
 ### Deployment
 
