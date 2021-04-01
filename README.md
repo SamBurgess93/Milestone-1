@@ -1,5 +1,7 @@
 # BB Fitness
 
+![Preview](assets/readme-assets/landingpage.png)
+
 Milestone project - User Centric Frontend development
 
 This project will be used to promote a Personal Training service. 
@@ -8,9 +10,7 @@ The aim is to encourage potential customers to join the movement and sign up to 
 The idea is that by properly describing the story of the trainers own fitness journey (Ben Burgess) this will inspire others who are in the same situation to make the change in their own lives.
 
 ## Showcase
-A deployed link to the website can be found [here](https://samburgess93.github.io/Milestone-1/).
-
-![Preview](https://github.com/samburgess93/Milestone-1/assets/images/landingpage.png)
+[Link to the Live Project](https://samburgess93.github.io/Milestone-1/).
 
 ## UX
 
@@ -60,11 +60,10 @@ the social media channels.
 
 ### Skeleton
 
-New Wireframes:
-
+The wireframes were created on figma.com  
 
 Original Wireframes:
-
+Link to wireframes can be found [here](https://samburgess93.github.io/Milestone-1/).
 
 ## Features
 
@@ -105,11 +104,12 @@ Create a multi page app with a gallery of pictures.
 
 
 ## Technologies Used
-HTML
-CSS
-JQuery
-Google Chrome Developer Tools
-Bootsrap v?
+- HTML5
+- CSS3
+- JQuery
+- Google Chrome Developer Tools
+- Bootsrap v4.3.1
+- Google Lighthouse for audits
 
 
 ## Testing
@@ -121,18 +121,18 @@ At the start of the project I had to take into account the needs of the user and
 
 Using Chrome tools I tested using the following devices;
 
-iPhone 5/SE (320 x 568)
-iPhone 6/7/8 (375 x 667)
-iPhone 6/7/8 Plus (414 x 716)
-iPhone X (375 x 812)
-iPad (768 x 1024)
-iPad Pro (1024 x 1366)
-Laptop with HiDPI Screen (1440 x 900)
+- iPhone 5/SE (320 x 568)
+- iPhone 6/7/8 (375 x 667)
+- iPhone 6/7/8 Plus (414 x 716)
+- iPhone X (375 x 812)
+- iPad (768 x 1024)
+- iPad Pro (1024 x 1366)
+- Laptop with HiDPI Screen (1440 x 900)
 
-I tested with other screens I have;
-Samsung S9 mobile
-23.8" Desktop Screen (1920 x 1080)
-Laptop 14" (1920 x 1080)
+I tested with other screens I have also;
+- Samsung S9 mobile
+- 23.8" Desktop Screen (1920 x 1080)
+- Laptop 14" (1920 x 1080)
 
 
 ### Implementation
