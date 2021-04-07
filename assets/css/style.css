@@ -3,7 +3,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
 /*-----Text-----*/
 .white-text {
     padding-bottom: 10px;
@@ -71,7 +70,7 @@ body{
 }
 
 .navbar-dark.scrolled{
-    background:rgba(16, 17, 17, 0.7) !important;
+    background:rgba(16, 17, 17, 0.85) !important;
 } 
 
 .navbar {
@@ -87,6 +86,10 @@ body{
 
 .nav-link:hover {
     color: #1a6db1 !important;
+}
+
+.nav-center{
+    padding-top: 20px;
 }
 /*-------------------------*/
 
