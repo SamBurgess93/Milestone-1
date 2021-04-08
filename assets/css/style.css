@@ -306,8 +306,9 @@ iframe{
     padding: 30px 10px;
 }
 
-.reviews {
-    background-color: #101011;
+#reviews {
+    background-color: #101011;    
+    padding: 100px 0px;
 }
 
 .review {
