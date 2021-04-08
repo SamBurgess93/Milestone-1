@@ -137,7 +137,6 @@ body{
     font-weight: 300;
 }
 
-
 /*-------------------------*/
 
 /*-----About Me Section-----*/
@@ -389,7 +388,6 @@ iframe{
 
 /*-----Contact------*/
 .contact-main {
-    padding: 125px 40px;
     background-color: #26abe2;
 }
 
@@ -518,6 +516,10 @@ footer {
     padding: 10px;
     }
 
+    .contact-main {
+    padding: 125px 5px;
+    }
+
 }    
 
 
@@ -554,6 +556,10 @@ footer {
 
     .video {
     padding: 30px;
+    }
+
+    .contact-main {
+    padding: 125px 40px;
     }
 }
 
