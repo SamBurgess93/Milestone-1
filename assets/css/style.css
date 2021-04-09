@@ -300,7 +300,7 @@ iframe{
 
 
 
-/*-----Reviews---fitz composer big props -----*/
+/*-----Reviews -----*/
 
 .review-title {
     background-color: #26abe2;
@@ -309,7 +309,7 @@ iframe{
 
 #reviews {
     background-color: #101011;    
-    padding: 100px 0px;
+    padding-top: 60px;
 }
 
 .review {
