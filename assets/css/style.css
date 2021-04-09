@@ -70,7 +70,7 @@ body{
 }
 
 .navbar-dark.scrolled{
-    background:rgba(16, 17, 17, 0.85) !important;
+    background:rgba(16, 17, 17, 1) !important;
 } 
 
 .navbar {
@@ -134,7 +134,7 @@ body{
     font-size: 1.6rem;
     padding-top: 2rem;
     text-align: center;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .4);
     font-weight: 300;
 }
 
@@ -438,7 +438,7 @@ iframe{
 /*-----Footer-----*/
 
 footer {
-    background-color: #212529;
+    background-color: rgb(16, 17, 17);
     color: #ffffff;
     min-height: 120px;
     margin: 0;
