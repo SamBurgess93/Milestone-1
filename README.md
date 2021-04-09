@@ -1,18 +1,55 @@
 # BB Fitness
 
-![Preview](assets/readme-assets/landingpage.png)
+![Preview](assets/readme-assets/responsive.png)
 
-Milestone project - User Centric Frontend development
+[Link to the Live Project](https://samburgess93.github.io/Milestone-1/).
+
+## Table of contents
+1. [Introduction](#Introduction)
+2. [UX](#UX)
+    1. [Ideal User Demographic](#Ideal-User-Demographic)
+    2. [User Stories](#User-Stories)
+    3. [Development Planes](#Development-Planes)
+    4. [Design](#Design)
+3. [Features](#Features)
+    1. [Design Features](#Design-Features) 
+    2. [Existing Features](#Existing-Features)
+    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
+4. [Issues and Bugs](#Issues-and-Bugs)
+5. [Technologies Used](#Technologies-Used)
+     1. [Main Languages Used](#Main-Languages-Used)
+     2. [Additional Languages Used](#Additional-Languages-Used)
+     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+6. [Testing](#Testing)
+     1. [Testing.md](TESTING.md)
+7. [Deployment](#Deployment)
+     1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
+     2. [Forking the Repository](#Forking-the-Repository)
+     3. [Creating a Clone](#Creating-a-Clone)
+8. [Credits](#Credits)
+     1. [Content](#Content)
+     2. [Media](#Media)
+     3. [Code](#Code)
+9. [Acknowledgements](#Acknowledgements)
+***
+
+## Introduction
+### Milestone project - User Centric Frontend development
 
 This project will be used to promote a Personal Training service. 
 The aim is to encourage potential customers to join the movement and sign up to the free 30 day fitness challenge and as a result take up the service long term.
 
 The idea is that by properly describing the story of the trainers own fitness journey (Ben Burgess) this will inspire others who are in the same situation to make the change in their own lives.
 
-## Showcase
-[Link to the Live Project](https://samburgess93.github.io/Milestone-1/).
+[Back to top ⇧](#bb-fitness)
 
 ## UX
+
+### Ideal User Demographic
+#### The ideal user of this website is:
+- Potential clients
+- Current clients
+- Anyone from ages 16-70
 
 ### User Stories
 The user of this website will be people who want to increase their own fitness levels and people who can relate to the story of the business owner.
@@ -28,27 +65,27 @@ A user will want to see more on the tyhe businesses social media platforms.
 A user will want to see some customer feedback.
 A user will want to see how to get in touch.
 
+### Development Planes
+#### Strategy
 
-### Strategy
 
-
-#### User Needs.
+##### User Needs.
 The potential user will need the information contained in the application to be concise and easily accessed. The application will need to be easily navigated by mobile devies such as phones and tablets.
 
 
-#### Technical Capabilites
+##### Technical Capabilites
 This project can be created in the available timeframe using the Bootstrap HTML & CSS framework.
 
-#### Business Vision
+##### Business Vision
 The purpose of this project is to introduce new people to the fitness movement. By showing what services can be offered and telling the story of the owner 
 the aim is to have people sign up to the free 30 day challenge to sample the services with the desired outcome being a longer membership sign up afterwards.
 With people visiting the site it is envisaged that the social media pages will in turn get more clicks. 
 
-### Scope
+#### Scope
 For the users to my website I wanted to highlight to them that they can change their lives and become a happier and healthier person by signing up for some personal training.
 
 
-### Structure
+#### Structure
 The main structure of the website will be a single page application with a main hero image and text that the user see first whe they visit the site.
 On scrolling down the user will come upon the About Me section which tells the story of the owners own battle with weight loss that will bring a sense of togetherness and relatability 
 to the application. What follows then is the Services section whcih highlights to the user what they can expect from BB fitness and how this 
@@ -58,12 +95,12 @@ A review section then follows which showcases what existing clients have to say 
 the social media channels. 
 
 
-### Skeleton
+#### Skeleton
 
 The wireframes were created on figma.com  
 
 Original Wireframes:
-Link to wireframes can be found [here](https://samburgess93.github.io/Milestone-1/).
+Link to wireframes can be found [here](https://www.figma.com/file/1PZ3T115pa96Jw6TOooS29/Milestone-1?node-id=0%3A1).
 
 ## Features
 
