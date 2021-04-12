@@ -78,8 +78,8 @@ This project can be created in the available timeframe using the Bootstrap HTML 
 
 ##### Business Vision
 The purpose of this project is to introduce new people to the fitness movement. By showing what services can be offered and telling the story of the owner 
-the aim is to have people sign up to the free 30 day challenge to sample the services with the desired outcome being a longer membership sign up afterwards.
-With people visiting the site it is envisaged that the social media pages will in turn get more clicks. 
+the aim is to have people sign up to the free 30 day challenge to sample the services with the desired outcome being a sign up to longer membership afterwards.
+With people visiting the site it is envisaged that the social media pages will in turn get more clicks and in turn get more people to join
 
 #### Scope
 For the users to my website I wanted to highlight to them that they can change their lives and become a happier and healthier person by signing up for some personal training.
@@ -94,6 +94,8 @@ section which will invite the user to sign up for the free fitness programme. Fo
 A review section then follows which showcases what existing clients have to say about BB fitness. This is then followed by the contact form and the footer which contains the links to
 the social media channels. 
 
+![Site Map](assets/readme-assets/structure-tree.png)
+
 
 #### Skeleton
 
@@ -102,43 +104,122 @@ The wireframes were created on figma.com
 Original Wireframes:
 Link to wireframes can be found [here](https://www.figma.com/file/1PZ3T115pa96Jw6TOooS29/Milestone-1?node-id=0%3A1).
 
+### Design
+
+#### Colour Scheme
+The main colours used throughout the website are a mixture of Black, White and a Light Blue.
+
+This colour scheme was chosen as it's a reflection of the owners official logo and creates a warm inviting feel to the webpage.
+
+#### Typography
+For fonts I decided to go with the [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google Font") font imported from Google fonts. If for some reason the import faield then Sans serif would be used.
+
+[Back to top ⇧](#bb-fitness)
+
 ## Features
 
-Landing Page:
-This will be the first thing seen by the user and will give them a feeling of togetherness and warmth.
+### Design Features
+Each section of the website features a consistent responsive navigational system:
+- Within the **Header** there is a **logo** placed in the top left of the page and upon clicking will redirect the user to the main landing page.
+- The **navbar** will be 100% transparent when the user is on the landing page. This will become solid when scrolled down.
+- On mobile devices the navbar will collapse into a **toggle** button and upon clicking will reveal the naviagtion links.
 
-About Me:
-This will outline the owners own weight loss struggles and highlights the philosophy and qualifications of the owner.
+<dl>
+  <dt><a href="index.html" target="_blank" alt="BB Fitness Home Page">Home Page</a></dt>
+  <dd>
+     <ul>
+          <li><strong>About Me </strong> - Occupying 50% of the page width on desktop and 100% on mobiles devices. The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the user.
+          </li>
+          <li><strong>Hero Text</strong> - Set on top of the <strong>Hero Image</strong> running across it. On mobile and tablet devices, the text becomes stacked. The purpose of the text is to provide an area in the center to draw in the users attention and create a positive emotional response from the user. 
+          </li>
+     </ul>
+  </dd>
 
-Services:
-Outlines to the user what they can expect to receive from the business.
+  <dt><a href="#about-me" target="_blank" alt="BB Fitness Home Page">About Me Page</a></dt>
+  <dd> The About Me page is two columns wide on desktops and one column wide on mobile and tablet devices.
+     <ul>
+          <li><strong>About Me Section</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. This section illustrates the owners own fitness journey which will allow the user to relate to the story.
+          </li>
+          <li><strong>Comparison Image</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked. Thispicture shows the owner himself has lost weight further helping the user to relate.
+          </li>
+          <li><strong>Coaching Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked, occupying 100% of the page width. This section illustrates shows the owner in a personal training setting showing the user his experience in coaching others.
+          </li>
+          <li><strong>Qualifications</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked. The container provides the qualifications of the trainer. This information was styled in a list with bullet points.
+          </li>
+          <li><strong>Philosophy</strong> - Occupying 50% of the width, on the right side, under the qualifications while viewing on a desktop. On mobile and tablet devices, the container becomes stacked. The container provides some quotes that the trainer bases their own philosophy on.  This information was styled in a list with bullet points.
+          </li>
+     </ul>
+  </dd>
 
-Challenge:
-Invites the user to sign up for the free 30 day fitness challenge.
+  <dt><a href="#services" target="_blank" alt="BB Fitness Home Page">Services</a></dt>
+  <dd>The Services page has a blue background to clearly seperate it from the About me section.
+     <ul> 
+          <li><strong>Heading</strong> - Occupying 100% of the page width on all devices. The heading asks the user a question which is answered in the following information,grabbing the users attention.
+          </li>
+          <li><strong>Service Items</strong> - There are 4 service item sections each being illustrated with a Font Awesome icon and some associated text. On desktop these 4 sections are laid horizontally across the webpages. On medium screens the sections are laid in a 2x2 grid. On small screens the sections are stacked horizontally.
+          </li>
+          <li><strong>Get in touch</strong> - A call to action button that invites the user to interact. The button brings the user to the contact form section.
+          </li>
+     </ul>
+  </dd>
 
-Video:
-Embedded YouTube video to initiate a positive emotional response.
+  <dt><a href="#challenge" target="_blank" alt="BB Fitness Home Page">30 Day Challenge</a></dt>
+  <dd>The aim of the 30 Day challenge section is to get the user to sign up to the free challenge in the expectation that they will want to sign up for longer afterwards after a positive experience.
+     <ul> 
+          <li><strong>Heading</strong> - Occupying 100% of the page width on all devices. The heading asks the user a question which is answered in the following information,grabbing the users attention.
+          </li>
+          <li><strong>Service Items</strong> - There are 4 service item sections each being illustrated with a Font Awesome icon and some associated text. On desktop these 4 sections are laid horizontally across the webpages. On medium screens the sections are laid in a 2x2 grid. On small screens the sections are stacked horizontally.
+          </li>
+          <li><strong>Get in touch</strong> - A call to action button that invites the user to interact. The button brings the user to the contact form section.
+          </li>
+     </ul>
+    </dd>
 
-Reviews:
-Showcases 3 existing customer reviews.
+  <dt><a href="#video" target="_blank" alt="BB Fitness Home Page">Video</a></dt>
+  <dd>The aim of the video is to get the user motivated to make the change in their own lives. The video is embedded from YouTube and the size is responsive and adapts to whatever size of screen its being viewed on.
+    </dd>
 
-Contact:
-A contact form for the user to get in touch.
+  <dt><a href="#reviews" target="_blank" alt="BB Fitness Home Page">Reviews</a></dt>
+  <dd>The idea behind the review section is that potenital new customers will be able to see what existing customers think of the services offered. There is 3 reviews in total. On large screens the 3 reviews wil be laid out horizontally across the screen. On meduim sized screens two wil occupy the top row and with one centred below.
+     <ul> 
+          <li><strong>Images</strong> - Each review shows a picture of the person that wrote it creating a more personal human touch for the user.
+          </li>
+          <li><strong>Icons</strong> - 5 star icons imported from Font Awesome represent the rating given by the reviewer.
+          </li>
+          <li><strong>Review</strong> - A 'show review' button allows the review itself to be expanded and collapsed again.
+          </li>
+     </ul>
+    </dd>
 
+  <dt><a href="#contact" target="_blank" alt="BB Fitness Home Page">Contact</a></dt>
+  <dd>The contact section will be the final section before the footer. This offers the user an oppurtunity to get in contact with the business to start their fitness journey. Theres a name, email and message field all of which are required fields. There is a send button at the bottom which changes state as the user hovers over with their mouse inviting them to click.
 
+  <dt><a href="#footer" target="_blank" alt="BB Fitness Home Page">Footer</a></dt>
+  <dd>The footer gives the user easy access to the social media links for the business to learn more. Links to Facebook, Instagram and Twitter are available.
+    </dd>
 
 
 
 ### Existing Features
-Navbar is clear on landing page but darkens as the user scrolls down the page.
+- Header Logo - Appearing in navabr and remains in top left of screen at the user scrolls. Clicking on the logo will return the users to the home page, as expected.
 
+- Header Navigation Bar - Fixed to the top of the page as the user scrolls down. Its clear at the top of the to enhance the impact of the Hero Image but becomes solid down the page to ensure the navigation links are clear and accessible. On smaller screens the navbar icons collapse into a toggler button.
+
+- Social Media Icons - Appearing in the footer, the icons represent the relevant Social Media platforms, allowing the user to learn more. Upon hovering over the icons they change colour.
+
+- YouTube Embed - iframe element for a video uploaded to YouTube, showcasing a motivational video for the user to enjoy. The bootstrap resonsive class was utilised to make sure the video size was dynamic depedning on what device screen size was being used. 
+
+- Collapsible Reviews - The customer reviews are expandable and collapsible to make the section cleaner and create an enhanced user experience.
 
 
 ### Features Left to Implement
-Members forum so people can interact and encourage each other.
-Email confirmation for successful sign up to challenge.
-Create a multi page app with a gallery of pictures.
+- Members forum so people can interact and encourage each other.
 
+- Email confirmation for successful sign up to challenge.
+
+- Create a multi page app with a gallery of pictures.
+
+[Back to top ⇧](#bb-fitness)
 
 ## Technologies Used
 - HTML5
