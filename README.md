@@ -5,32 +5,34 @@
 [Link to the Live Project](https://samburgess93.github.io/Milestone-1/).
 
 ## Table of contents
-1. [Introduction](#Introduction)
-2. [UX](#UX)
-    1. [Ideal User Demographic](#Ideal-User-Demographic)
-    2. [User Stories](#User-Stories)
-    3. [Development Planes](#Development-Planes)
-    4. [Design](#Design)
-3. [Features](#Features)
-    1. [Design Features](#Design-Features) 
-    2. [Existing Features](#Existing-Features)
-    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
-4. [Issues and Bugs](#Issues-and-Bugs)
-5. [Technologies Used](#Technologies-Used)
-     1. [Main Languages Used](#Main-Languages-Used)
-     2. [Additional Languages Used](#Additional-Languages-Used)
-     3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
-6. [Testing](#Testing)
-     1. [Testing.md](TESTING.md)
-7. [Deployment](#Deployment)
+1. [Introduction](#introduction)
+2. [UX](#ux)
+    1. [Ideal User Demographic](#ideal-user-demographic)
+    2. [User Stories](#user-stories)
+    3. [Development Planes](#development-planes)
+    4. [Design](#design)
+3. [Features](#features)
+    1. [Design Features](#design-features) 
+    2. [Existing Features](#existing-features)
+    3. [Features to Implement in the future](#features-to-implement-in-the-future)
+4. [Technologies Used](#technologies-used)
+     1. [Main Languages Used](#main-languages-used)
+     2. [Additional Languages Used](#additional-languages-used)
+     3. [Frameworks and Programs Used](#frameworks-and-programs-used)
+5. [Testing](#testing)
+     1. [Testing planning](#testing-planning)
+     2. [Execution](#execution)
+5. [Results and outcomes](#results-and-outcomes)
+     1. [Validator](#validator)
+     2. [Lighthouse](#lighthouse)
+6. [Deployment](#Deployment)
      1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
      2. [Forking the Repository](#Forking-the-Repository)
      3. [Creating a Clone](#Creating-a-Clone)
-8. [Credits](#Credits)
-     1. [Content](#Content)
-     2. [Media](#Media)
-     3. [Code](#Code)
-9. [Acknowledgements](#Acknowledgements)
+7. [Credits](#Credits)
+     1. [Images](#Images)
+     2. [Code](#Code)
+8. [Acknowledgements](#Acknowledgements)
 ***
 
 ## Introduction
@@ -112,7 +114,7 @@ The main colours used throughout the website are a mixture of Black, White and a
 This colour scheme was chosen as it's a reflection of the owners official logo and creates a warm inviting feel to the webpage.
 
 #### Typography
-For fonts I decided to go with the [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google Font") font imported from Google fonts. If for some reason the import faield then Sans serif would be used.
+For fonts I decided to go with the [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google Font") font imported from Google fonts. If for some reason the import failed then Sans serif would be used.
 
 [Back to top ⇧](#bb-fitness)
 
@@ -201,7 +203,7 @@ Each section of the website features a consistent responsive navigational system
 
 
 ### Existing Features
-- Header Logo - Appearing in navabr and remains in top left of screen at the user scrolls. Clicking on the logo will return the users to the home page, as expected.
+- Header Logo - Appearing in navbar and remains in top left of screen at the user scrolls. Clicking on the logo will return the users to the home page, as expected.
 
 - Header Navigation Bar - Fixed to the top of the page as the user scrolls down. Its clear at the top of the to enhance the impact of the Hero Image but becomes solid down the page to ensure the navigation links are clear and accessible. On smaller screens the navbar icons collapse into a toggler button.
 
@@ -212,7 +214,7 @@ Each section of the website features a consistent responsive navigational system
 - Collapsible Reviews - The customer reviews are expandable and collapsible to make the section cleaner and create an enhanced user experience.
 
 
-### Features Left to Implement
+### Features to implement in the future
 - Members forum so people can interact and encourage each other.
 
 - Email confirmation for successful sign up to challenge.
@@ -222,20 +224,37 @@ Each section of the website features a consistent responsive navigational system
 [Back to top ⇧](#bb-fitness)
 
 ## Technologies Used
-- HTML5
-- CSS3
-- JQuery
-- Google Chrome Developer Tools
-- Bootsrap v4.3.1
-- Google Lighthouse for audits
 
+### Main Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+
+### Additional Languages Used
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScript Wiki")
+     - Used to implement a function that allowed the Navbar to change from clear to solid when user scrolls through page, for UX purposes.
+
+### Frameworks and Programs Used
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/ "Link to Bootstrap page")
+     - Bootstrap v4.3.1 was used to implement the responsiveness of the site, using bootstrap classes.
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the "Roboto" font. This font is used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used throughout the website to import icons (e.g. social media icons) for UX purposes.
+- [Git](https://git-scm.com/ "Link to Git homepage")
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing.
+- [Figma](https://www.figma.com/ "Link to Figma homepage")
+     - Figma was used to create the wireframes during the design phase of the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+[Back to top ⇧](#bb-fitness)
 
 ## Testing
 
-
-
-### Testing planning.
-At the start of the project I had to take into account the needs of the user and the devies they would be using to view the application.
+### Testing planning
+At the start of the project I had to take into account the needs of the user and the devices they would be using to view the application.
 
 Using Chrome tools I tested using the following devices;
 
@@ -253,7 +272,7 @@ I tested with other screens I have also;
 - Laptop 14" (1920 x 1080)
 
 
-### Implementation
+### Execution
 I used Google Chrome dev tools to debug and test my code. I used the 'mobile first' approach so I debugged on the smallest screen first and worked my way up to the largest. 
 I also tested using the handheld devices I owned to make the testing more accurate.
 
@@ -261,28 +280,108 @@ The main method of testing I used was implenting/ changing styles in the Chrome 
 
 I also used Lighthouse to test the accessability of the site and W3 validator to test my code.
 
+The testing process on differrent devices was carried out in the following order.
+1. Load up the webpage and scroll through the page without clicking on any features checking for any overflow.
+2. If everything is OK then I would scroll back to the top of the page and click on the first feature. Does it function and present itself in the way it is intended? If yes, then go to the next feature and repeat the step. If not then I fixed the issue.
+3. Click on each item on the navbar ensuring that the link brings you to the correct destination and also when the user is brought to the destination that the navbar doesnt obstruct any of the information.
+4. On the Modal and contact form sections I would test the fields on each device to ensure each field was required worked correctly.
+5. Ensured that the social links worked correctly and that they would open in a new tab to ensure good UX.
+
+
 ### Results and outcomes
 
 ### Validator
 
 I used the W3C Validator to check my HTML code. The first error I encountered was that in my embedded code for the YouTube video the frameborder attribute is obselete in HTML5. I had to implement this is in my CSS instead.
 
-### Deployment
+The results from the validator can be seen [here](assets/readme-assets/structure-tree.png).
 
+### Lighthouse
+
+I used Google Lighthouse to audit my site and further enhance the accesibility of the site.
+My current score is: 99% Performance 96% Accessibility 87% Best Practices 92% Search Engine Optimization.
+
+Results can be seen [here](assets/readme-assets/structure-tree.png).
+
+
+## Deployment
+
+This project was developed using [GitPod](https://gitpod.io/ "Link to GitPod"), committed to git and pushed to GitHub using the computer terminal.
+
+### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/SamBurgess93/Milestone-1 "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Go to the "Pages" section on the left hand side.
+5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Click on the link provided to view the deployed site.
+
+### Forking the Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/SamBurgess93/Milestone-1 "Link to GitHub Repo").
+3. At the top of the repository, on the right side of the page, select "Fork"
+4. You should now have a copy of the original repository in your GitHub account.
+
+### Creating a Clone
+How to run this project locally:
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
+2. After installation, restart the browser.
+3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/SamBurgess93/Milestone-1 "Link to GitHub Repo").
+5. Click the green "GitPod" button in the top right corner of the repository.
+This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+
+How to run this project within a local IDE, such as VSCode:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/SamBurgess93/Milestone-1 "Link to GitHub Repo").
+3. Under the repository name, click "Clone or download".
+4. In the Clone with HTTPs section, copy the clone URL for the repository.
+5. In your local IDE open the terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type 'git clone', and then paste the URL you copied in Step 3.
+```
+git clone https://github.com/USERNAME/REPOSITORY
+```
+8. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting")
+
+[Back to top ⇧](#bb-fitness)
+
+## Credits 
+
+### Images
+- The 2 pictures in the About Me section where taken from the owners own Facebook page (Ben Burgess) with his permission granted for them to be used.
+
+The stock images that were used during the development of this site were taken from,
+- [Unsplash](https://unsplash.com/ "Link to UnSplash page")
+
+### Code 
+I consulted the following sites to better undertsand some elements of code:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
+- [Codepen](https://codepen.io/ "Link to Codepen page")
+
+[Back to top ⇧](#bb-fitness)
+
+## Acknowledgements
+
+- I would like to thank my friends and family for their time and opinions on the website.
+- I would like to thank my mentor, Seun, for her help and constructive feedback throughout the project.
+- I would like to thank Maggie Walsh who took the time and reviewed my project throught the "peer code review" channel on Slack.
+- I would like to extend my deepest gratitude to my brother Ben for entrustng me to make this site for him.
+
+[[Back to top ⇧](#bb-fitness)
 
 
 ## Bugs
-
-
-
-## Credits
-
-
-### Content
-
-
-
-### Acknowledgements
 
 
 
@@ -290,4 +389,4 @@ I used the W3C Validator to check my HTML code. The first error I encountered wa
 
 **This project is for educational use only and was created specifcally for the Code Institute Module of User Centric front end development**
 
-**Created by Sam Burgess**
+**Created by Sam Burgess** 
