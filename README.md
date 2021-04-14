@@ -22,17 +22,18 @@
 5. [Testing](#testing)
      1. [Testing planning](#testing-planning)
      2. [Execution](#execution)
-5. [Results and outcomes](#results-and-outcomes)
+6. [Results and outcomes](#results-and-outcomes)
      1. [Validator](#validator)
      2. [Lighthouse](#lighthouse)
-6. [Deployment](#Deployment)
+7. [Bugs](#bugs)
+8. [Deployment](#Deployment)
      1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
      2. [Forking the Repository](#Forking-the-Repository)
      3. [Creating a Clone](#Creating-a-Clone)
-7. [Credits](#Credits)
+9. [Credits](#Credits)
      1. [Images](#Images)
      2. [Code](#Code)
-8. [Acknowledgements](#Acknowledgements)
+10. [Acknowledgements](#Acknowledgements)
 ***
 
 ## Introduction
@@ -278,10 +279,10 @@ I also tested using the handheld devices I owned to make the testing more accura
 
 The main method of testing I used was implenting/ changing styles in the Chrome Dev Tools first to see how it looked on various device sizes. If this was satisfactory then I would paste the code over to my HTML/CSS to make the change permanent.
 
-I also used Lighthouse to test the accessability of the site and W3 validator to test my code.
+I also used Lighthouse to test the accessability of the site and W3 validator to further test my code.
 
-The testing process on differrent devices was carried out in the following order.
-1. Load up the webpage and scroll through the page without clicking on any features checking for any overflow.
+The testing process on different devices was carried out using the following method.
+1. Load up the webpage and scroll through the page without clicking on any features checking for any overflow or sizing issues.
 2. If everything is OK then I would scroll back to the top of the page and click on the first feature. Does it function and present itself in the way it is intended? If yes, then go to the next feature and repeat the step. If not then I fixed the issue.
 3. Click on each item on the navbar ensuring that the link brings you to the correct destination and also when the user is brought to the destination that the navbar doesnt obstruct any of the information.
 4. On the Modal and contact form sections I would test the fields on each device to ensure each field was required worked correctly.
@@ -294,14 +295,25 @@ The testing process on differrent devices was carried out in the following order
 
 I used the W3C Validator to check my HTML code. The first error I encountered was that in my embedded code for the YouTube video the frameborder attribute is obselete in HTML5. I had to implement this is in my CSS instead.
 
-The results from the validator can be seen [here](assets/readme-assets/structure-tree.png).
+The results from the validator can be seen [here](https://github.com/SamBurgess93/Milestone-1/blob/master/assets/readme-assets/validator.png).
 
 ### Lighthouse
 
 I used Google Lighthouse to audit my site and further enhance the accesibility of the site.
 My current score is: 99% Performance 96% Accessibility 87% Best Practices 92% Search Engine Optimization.
 
-Results can be seen [here](assets/readme-assets/structure-tree.png).
+Results can be seen [here](https://github.com/SamBurgess93/Milestone-1/blob/master/assets/readme-assets/lighthouseaudit.png).
+
+[Back to top ⇧](#bb-fitness)
+
+## Bugs
+
+I encountered a number of bugs during my development of the website.
+
+1.  I was getting an unusual scroll behaviour on my navbar items and my logo within the navbar itself when scrolling down on the page. Upon further investigation it was found that from adding some extra padding onto my reviews section that it was creating an overlow which was causing this behaviour.
+    Upon releasing what was causing the issue I was able to quickly resolve the problem.
+2.  On mobile devices I couldnt see the lines in the hamburger toggle icon in the navbar.
+3. 
 
 
 ## Deployment
@@ -332,11 +344,11 @@ How to run this project locally:
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
 2. After installation, restart the browser.
 3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://github.com/SamBurgess93/Milestone-1 "Link to GitHub Repo").
+4. Locate the [GitHub Repository](https://github.com/SamBurgess93/Milestone-1 "Link to GitHub Repo").
 5. Click the green "GitPod" button in the top right corner of the repository.
 This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
-How to run this project within a local IDE, such as VSCode:
+How to run this project within a local IDE:
 
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
 2. Locate the [GitHub Repository](https://github.com/SamBurgess93/Milestone-1 "Link to GitHub Repo").
@@ -378,11 +390,7 @@ I consulted the following sites to better undertsand some elements of code:
 - I would like to thank Maggie Walsh who took the time and reviewed my project throught the "peer code review" channel on Slack.
 - I would like to extend my deepest gratitude to my brother Ben for entrustng me to make this site for him.
 
-[[Back to top ⇧](#bb-fitness)
-
-
-## Bugs
-
+[Back to top ⇧](#bb-fitness)
 
 
 
