@@ -26,14 +26,14 @@
      1. [Validator](#validator)
      2. [Lighthouse](#lighthouse)
 7. [Bugs](#bugs)
-8. [Deployment](#Deployment)
-     1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
-     2. [Forking the Repository](#Forking-the-Repository)
-     3. [Creating a Clone](#Creating-a-Clone)
-9. [Credits](#Credits)
-     1. [Images](#Images)
-     2. [Code](#Code)
-10. [Acknowledgements](#Acknowledgements)
+8. [Deployment](#deployment)
+     1. [Deploying on GitHub Pages](#deploying-on-github-pages)
+     2. [Forking the Repository](#forking-the-repository)
+     3. [Creating a Clone](#creating-a-clone)
+9. [Credits](#credits)
+     1. [Images](#images)
+     2. [Code](#code)
+10. [Acknowledgements](#acknowledgements)
 ***
 
 ## Introduction
@@ -310,11 +310,14 @@ Results can be seen [here](https://github.com/SamBurgess93/Milestone-1/blob/mast
 
 I encountered a number of bugs during my development of the website.
 
-1.  I was getting an unusual scroll behaviour on my navbar items and my logo within the navbar itself when scrolling down on the page. Upon further investigation it was found that from adding some extra padding onto my reviews section that it was creating an overlow which was causing this behaviour.
-    Upon releasing what was causing the issue I was able to quickly resolve the problem.
-2.  On mobile devices I couldnt see the lines in the hamburger toggle icon in the navbar.
-3. 
+1.  I was getting an unusual scroll behaviour on my navbar items and my logo within the navbar itself when moving down on the page. Upon further investigation it was found that from adding some extra padding onto my reviews section that it was creating an overlow which was causing this behaviour.
+    Upon releasing what was causing the issue I was able to quickly resolve the problem by adjusting the padding on the reviews section.
+2.  On mobile devices I couldnt see the lines in the hamburger toggle icon in the navbar. This was due to be using the incorrect navbar bootstrap class. I was using navbar light and when I tried using navbar dark class instead on chrome dev tools and this solved the issue.
+    I then implemented this is my HTML code and the issue was resolved. 
+3.  I encountered an issue with the 2 pictures in the about me section, I added border radius styles but this was only being shown on the top corners. This was being caused by the pictures being too large for their container. By resizing the images using an editor I was able to solve this issue.
+4.  During the early phase of the project I had a problem with the hero text not having enough contrast against the image behind it. I added some text shadow to the text to make it stand out better.
 
+[Back to top ⇧](#bb-fitness)
 
 ## Deployment
 
@@ -369,13 +372,13 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits 
 
 ### Images
-- The 2 pictures in the About Me section where taken from the owners own Facebook page (Ben Burgess) with his permission granted for them to be used.
+- The 2 pictures in the About Me section weere taken from the owners own Facebook page (Ben Burgess) with his permission granted for them to be used.
 
 The stock images that were used during the development of this site were taken from,
 - [Unsplash](https://unsplash.com/ "Link to UnSplash page")
 
 ### Code 
-I consulted the following sites to better undertsand some elements of code:
+I consulted the following sites to better understand some elements of code:
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 - [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
@@ -389,10 +392,9 @@ I consulted the following sites to better undertsand some elements of code:
 - I would like to thank my mentor, Seun, for her help and constructive feedback throughout the project.
 - I would like to thank Maggie Walsh who took the time and reviewed my project throught the "peer code review" channel on Slack.
 - I would like to extend my deepest gratitude to my brother Ben for entrustng me to make this site for him.
+- I would like to credit Mike Avgeros for the code surrounding the review section.
 
 [Back to top ⇧](#bb-fitness)
-
-
 
 
 **This project is for educational use only and was created specifcally for the Code Institute Module of User Centric front end development**
