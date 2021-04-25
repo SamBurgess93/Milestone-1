@@ -64,7 +64,7 @@ The website will invite the user to interact with a colour scheme and a user-fri
 
 A user will want to relate to the owners story.
 A user will want to see what services are on offer.
-A user will want to see more on the tyhe businesses social media platforms.
+A user will want to see more information on the the businesses social media platforms.
 A user will want to see some customer feedback.
 A user will want to see how to get in touch.
 
@@ -73,7 +73,7 @@ A user will want to see how to get in touch.
 
 
 ##### User Needs.
-The potential user will need the information contained in the application to be concise and easily accessed. The application will need to be easily navigated by mobile devies such as phones and tablets.
+The potential user will need the information contained in the application to be concise and easily accessed. The application will need to be easily navigated by mobile devices such as phones and tablets.
 
 
 ##### Technical Capabilites
@@ -89,10 +89,10 @@ For the users to my website I wanted to highlight to them that they can change t
 
 
 #### Structure
-The main structure of the website will be a single page application with a main hero image and text that the user see first whe they visit the site.
+The main structure of the website will be a single page application with a main hero image and text that the user sees first when they visit the site.
 On scrolling down the user will come upon the About Me section which tells the story of the owners own battle with weight loss that will bring a sense of togetherness and relatability 
-to the application. What follows then is the Services section whcih highlights to the user what they can expect from BB fitness and how this 
-differentiates this from others. This will include a call to action button to get in touch to start the process. After the services the user is met with the 30 day fitness challenge
+to the application. What follows then is the Services section which highlights to the user what they can expect from BB fitness and how this business
+differentiates itself from others. This will include a call to action button to get in touch to start the process. After the services the user is met with the 30 day fitness challenge
 section which will invite the user to sign up for the free fitness programme. Following this is a embedded motivational video to create a positive emotional response from the user.
 A review section then follows which showcases what existing clients have to say about BB fitness. This is then followed by the contact form and the footer which contains the links to
 the social media channels. 
@@ -143,7 +143,7 @@ Each section of the website features a consistent responsive navigational system
      <ul>
           <li><strong>About Me Section</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. This section illustrates the owners own fitness journey which will allow the user to relate to the story.
           </li>
-          <li><strong>Comparison Image</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked. Thispicture shows the owner himself has lost weight further helping the user to relate.
+          <li><strong>Comparison Image</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked. This picture shows the owner himself has lost weight further helping the user to relate.
           </li>
           <li><strong>Coaching Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked, occupying 100% of the page width. This section illustrates shows the owner in a personal training setting showing the user his experience in coaching others.
           </li>
@@ -195,7 +195,7 @@ Each section of the website features a consistent responsive navigational system
     </dd>
 
   <dt><a href="#contact" target="_blank" alt="BB Fitness Home Page">Contact</a></dt>
-  <dd>The contact section will be the final section before the footer. This offers the user an oppurtunity to get in contact with the business to start their fitness journey. Theres a name, email and message field all of which are required fields. There is a send button at the bottom which changes state as the user hovers over with their mouse inviting them to click.
+  <dd>The contact section will be the final section before the footer. This offers the user an opportunity to get in contact with the business to start their fitness journey. Theres a name, email and message field all of which are required fields. There is a send button at the bottom which changes state as the user hovers over with their mouse inviting them to click.
 
   <dt><a href="#footer" target="_blank" alt="BB Fitness Home Page">Footer</a></dt>
   <dd>The footer gives the user easy access to the social media links for the business to learn more. Links to Facebook, Instagram and Twitter are available.
@@ -210,7 +210,7 @@ Each section of the website features a consistent responsive navigational system
 
 - Social Media Icons - Appearing in the footer, the icons represent the relevant Social Media platforms, allowing the user to learn more. Upon hovering over the icons they change colour.
 
-- YouTube Embed - iframe element for a video uploaded to YouTube, showcasing a motivational video for the user to enjoy. The bootstrap resonsive class was utilised to make sure the video size was dynamic depedning on what device screen size was being used. 
+- YouTube Embed - iframe element for a video uploaded to YouTube, showcasing a motivational video for the user to enjoy. The bootstrap responsive class was utilised to make sure the video size was dynamic depending on what device screen size was being used. 
 
 - Collapsible Reviews - The customer reviews are expandable and collapsible to make the section cleaner and create an enhanced user experience.
 
@@ -289,7 +289,7 @@ The testing process on different devices was carried out using the following met
 5. Ensured that the social links worked correctly and that they would open in a new tab to ensure good UX.
 
 
-### Results and outcomes
+## Results and outcomes
 
 ### Validator
 
@@ -310,11 +310,11 @@ Results can be seen [here](https://github.com/SamBurgess93/Milestone-1/blob/mast
 
 I encountered a number of bugs during my development of the website.
 
-1.  I was getting an unusual scroll behaviour on my navbar items and my logo within the navbar itself when moving down on the page. Upon further investigation it was found that from adding some extra padding onto my reviews section that it was creating an overlow which was causing this behaviour.
-    Upon releasing what was causing the issue I was able to quickly resolve the problem by adjusting the padding on the reviews section.
-2.  On mobile devices I couldnt see the lines in the hamburger toggle icon in the navbar. This was due to be using the incorrect navbar bootstrap class. I was using navbar light and when I tried using navbar dark class instead on chrome dev tools and this solved the issue.
+1.  I was getting an unusual scroll behaviour on my navbar items and my logo within the navbar itself when moving down on the page. Upon further investigation it was found that from adding some extra padding onto my reviews section that it was creating an overflow which was causing this behaviour.
+    When I realised what was causing the issue I was able to quickly resolve the problem by adjusting the padding on the reviews section.
+2.  On mobile devices I couldn't see the lines in the hamburger toggle icon in the navbar. This was due to the incorrect navbar bootstrap class being used. I was using navbar light and when I tried using navbar dark class instead on chrome dev tools, this solved the issue.
     I then implemented this is my HTML code and the issue was resolved. 
-3.  I encountered an issue with the 2 pictures in the about me section, I added border radius styles but this was only being shown on the top corners. This was being caused by the pictures being too large for their container. By resizing the images using an editor I was able to solve this issue.
+3.  I encountered an issue with the 2 pictures in the about me section, I added a border radius style but this was only being shown on the top corners. This was being caused by the pictures being too large for their container. By resizing the images using an editor I was able to solve this issue.
 4.  During the early phase of the project I had a problem with the hero text not having enough contrast against the image behind it. I added some text shadow to the text to make it stand out better.
 
 [Back to top ⇧](#bb-fitness)
@@ -372,7 +372,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits 
 
 ### Images
-- The 2 pictures in the About Me section weere taken from the owners own Facebook page (Ben Burgess) with his permission granted for them to be used.
+- The 2 pictures in the About Me section were taken from the owners own Facebook page (Ben Burgess) with his permission granted for them to be used.
 
 The stock images that were used during the development of this site were taken from,
 - [Unsplash](https://unsplash.com/ "Link to UnSplash page")
@@ -392,7 +392,7 @@ I consulted the following sites to better understand some elements of code:
 - I would like to thank my mentor, Seun, for her help and constructive feedback throughout the project.
 - I would like to thank Maggie Walsh who took the time and reviewed my project throught the "peer code review" channel on Slack.
 - I would like to extend my deepest gratitude to my brother Ben for entrustng me to make this site for him.
-- I would like to credit Mike Avgeros for the code surrounding the review section.
+- I would like to credit Mike Avgeros for the code surrounding the collapsible review section.
 
 [Back to top ⇧](#bb-fitness)
 
